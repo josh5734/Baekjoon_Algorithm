@@ -6,9 +6,9 @@ public class Baekjoon_1157 {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine().toUpperCase();
 		int[] alphabet = new int[26];
-		
+		sc.close();
 		for(int i = 0; i<input.length();i++) {
-			alphabet[(int)input.charAt(i)-65]++;
+			alphabet[input.charAt(i)-65]++;
 		}
 		int max = 0;
 		int index = 0;
