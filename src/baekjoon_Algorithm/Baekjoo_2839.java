@@ -1,7 +1,7 @@
 package baekjoon_Algorithm;
 
 import java.util.*;
-public class Baekjoo_2839 {
+public class Baekjoon_2839 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class Baekjoo_2839 {
 			}
 		}
 		if(!available) System.out.println(-1);
-		
+			
 	}
-
+		
 }
